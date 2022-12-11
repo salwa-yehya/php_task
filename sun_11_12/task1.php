@@ -57,7 +57,7 @@ echo $text;
 ?>
 <!-- 8- -->
 <?php
-//header("Location:https://www.w3schools.com/");
+header("Location:https://www.w3schools.com/");
 exit();
 ?>
 </body>
