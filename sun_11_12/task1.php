@@ -44,7 +44,7 @@ echo '<br>';
 <?php
 // $pizza  = "piece1 piece2 piece3 piece4 piece5 piece6";
 // $pieces = explode(" ", $pizza);
-$str = "https://www.w3schools.com/php/default.asp";
+//$str = "https://www.w3schools.com/php/default.asp";
 $split = explode("/", $str);
 print_r($split);
 echo '<br>';
@@ -57,8 +57,8 @@ echo $text;
 ?>
 <!-- 8- -->
 <?php
-header("Location:https://www.w3schools.com/");
-exit();
+//header("Location:https://www.w3schools.com/");
+//exit();
 ?>
 </body>
 </html>
