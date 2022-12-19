@@ -38,8 +38,11 @@ echo '<br>';
 <?php
 echo '_______________Q2______________';
 echo '<br>';
-echo strrev("remove");
-echo '<br>';
+function reverse($word){
+return strrev($word);
+}
+ echo reverse("remove");
+ echo '<br>';
 ?>
 <?php 
 echo '_______________Q3______________';
