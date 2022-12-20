@@ -129,3 +129,17 @@ echo '<pre>';
 print_r ($result);
 echo '</pre>';
 ?>
+
+<?php
+// switch between two vaule without function
+$x=5;
+$y=10;
+$x = $x ^ $y;  
+$y = $x ^ $y;
+$x = $x ^ $y;
+echo  $x ;
+echo '<br>';
+echo  $y ;
+
+
+?>

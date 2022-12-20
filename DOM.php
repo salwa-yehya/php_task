@@ -15,4 +15,3 @@ $domElement->appendChild($domAttribute);
 $domDocument->appendChild($domElement);
 
 ?>
-<?php ?>
